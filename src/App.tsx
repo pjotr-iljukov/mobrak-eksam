@@ -130,7 +130,7 @@ const App: React.FC = () => {
                   cities={cities}
                   handleSaveCity={handleSaveCity}
                   handleEditCity={handleEditCity}
-                  handleDeleteCity={handleDeleteCity}/>
+                  handleDeleteCity={handleDeleteCity} />
             </Route>
             <Route path={"/details/:city"}>
               <SingleCastDetails />
